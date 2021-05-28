@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="style.css" />
+    <title>New Portfolio Template</title>
+  </head>
+  <body>
+    <div>
+      <ul class="menu-bar">
+        <div class="logo">
+          <li><a href="">Project</a></li>
+        </div>
+        <div class="menu">
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </ul>
+    </div>
+
+    <div class="landing-page">
+      <div class="text-box">
+        <h1>IRUTHAYA SANTHOSE I</h1>
+        <h3>I'm a <span class="typed2"></span></h3>
+      </div>
+    </div>
+
+    <!--Projects-->
+    <div id="portfolio" class="portfolio">
+      <h3>< Projects ></h3>
+      <div class="projects-section">
+        <div class="project">
+          <a href="https://gadgify.in"><img src="img/gf-tn.png" alt="" /></a>
+          <h4>Gadgi.fy</h4>
+        </div>
+        <div class="project">
+          <a href="https://mobilefix.co.in"
+            ><img src="img/mf-tn.png" alt=""
+          /></a>
+          <h4>MobileFix</h4>
+        </div>
+        <div class="project">
+          <a href="https://kumarelectronics.co.in"
+            ><img src="img/ke-tn.png" alt=""
+          /></a>
+          <h4>Kumar Electronics</h4>
+        </div>
+        <div class="project">
+          <a href="https://filmpickers.in"
+            ><img src="img/fp-tn.png" alt=""
+          /></a>
+          <h4>FimPickers</h4>
+        </div>
+        <div class="project">
+          <a href="http://filmpickers.unaux.com"
+            ><img src="img/rbc-tn.png" alt=""
+          /></a>
+          <h4>RBC Organization</h4>
+        </div>
+        <div class="project">
+          <a href="http://iruthaya.ezyro.com/?i=1"
+            ><img src="img/i-tn.png" alt=""
+          /></a>
+          <h4>Iruthaya</h4>
+        </div>
+      </div>
+      <h3>< / Projects ></h3>
+    </div>
+
+    <!--About-->
+    <div id="about" class="about">
+      <h3>< About ></h3>
+      <div class="boxes">
+        <div class="box1">
+          <img
+            src="/img/dp.jpeg"
+            style="width: 100px"
+            style="height: 150px"
+            alt=""
+          />
+          <h5>Iruthaya santhose.I</h5>
+          <h6>Web Devolper</h6>
+        </div>
+        <div class="box2">
+          <p>
+            An ambitious web developer, who seeks challenging projects always to
+            show & improve his abilities and programming knowledge. Coding is my
+            weapon to craft new things in this world!
+          </p>
+        </div>
+      </div>
+      <h3>< / About ></h3>
+    </div>
+
+    <!--Contact-->
+    <div id="contact" class="contact">
+      <h3>< Contact ></h3>
+      <div class="boxes">
+        <div class="box1">
+          <a href="#">Github</a>
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+        </div>
+        <div class="box2">
+          <form
+            action="mailto:johnsanthosh69@gmail.com"
+            method="POST"
+            class="contact_form"
+            enctype="text/plain"
+          >
+            <input type="text" placeholder="Name" class="contact_input" />
+            <input type="mail" placeholder="Email" class="contact_input" />
+            <textarea
+              name="des"
+              placeholder="Message"
+              id=""
+              cols="0"
+              rows="10"
+              class="contact_input"
+            ></textarea>
+            <input type="submit" value="Send" class="contact_button button" />
+          </form>
+        </div>
+      </div>
+      <h3>< / Contact ></h3>
+    </div>
+
+    <!--footer-->
+    <div class="footer"></div>
+    <script src="typed.js"></script>
+    <script>
+      var typed = new Typed(".typed2", {
+        strings: ["Devolper.", "Designer.", "Traveller."],
+        typeSpeed: 80,
+        backSpeed: 80,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
